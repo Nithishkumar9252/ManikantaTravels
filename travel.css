@@ -1,0 +1,222 @@
+/* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link:hover,
+.navbar-scroll .navbar-toggler-icon,
+.navbar-scroll .navbar-brand {
+  color: #fff;
+  color: #756523 !important;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler-icon,
+.navbar-scrolled .navbar-brand{
+  color: #fff;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scroll,
+.navbar-scrolled {
+  background-color: #cbbcb1;
+}
+
+.travelwall{
+  position: relative;
+  height: calc(100vh - 0px);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url("wall7.jpg");
+
+}
+.loginwall{
+  position: relative;
+  height: calc(100vh - 0px);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url("world2.jpg");
+
+}
+.wallpaper {
+  position: relative;
+  height: calc(120vh - 0px);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url("wall14.jpg");
+}
+
+.contactwall{
+  position: relative;
+  height: calc(130vh - 0px);
+  background-size: cover;
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-image: url("wall18.jpg");
+
+}
+.offcanvasTop {
+  --bs-offcanvas-height: 100vh;
+  background-color: #c5e1d4;
+}
+.mask-custom {
+  backdrop-filter: blur(1px);
+  background-color: rgba(255, 255, 255, .15);
+}
+
+.navbar-brand:hover {
+  color: #756523 !important;
+
+  font-family: sans-serif;
+  font-size: 40px;
+  letter-spacing: 3px;
+  width: 100%;
+  left: auto;
+}
+
+.img-responsive {
+    height: auto;
+    width: auto;
+    max-height: 100px;
+    max-width: 100px;
+}
+
+.text-body:hover{
+  color: #fff !important;
+}
+
+.navbar-nav  li a:hover {
+
+      color: #fff !important;
+  }
+
+.nav-tabs{
+  border-color: #756523 !important;
+}
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}
+
+.btn-lg:hover{
+  border-color: #756523 !important;
+  border-radius: 4px;
+  box-sizing: 3px;
+  border-width: thick;
+}
+
+.bi-whatsapp:hover {
+  transform: scale(1.1);
+  background-color: $warning;
+  border-radius: 50%;
+  color: $primary;
+}
+
+.bi-envelope-at:hover {
+  transform: scale(1.1);
+  background-color: $warning;
+  border-radius: 10%;
+  color: $primary;
+}
+
+.bi-telephone-outbound:hover {
+  transform: scale(1.1);
+  background-color: $warning;
+  border-radius: 10%;
+  color: $primary;
+}
+
+.bi-pin-map-fill:hover {
+  transform: scale(1.1);
+  background-color: $warning;
+  border-radius: 10%;
+  color: $primary;
+}
+
+.bi-facebook:hover {
+  transform: scale(1.1);
+  background-color: $warning;
+  border-radius: 50%;
+  color: $primary;
+}
+
+.bi-instagram:hover {
+  transform: scale(1.1);
+  background-color: $warning;
+  border-radius: 50%;
+  color: $primary;
+}
+
+.bi-luggage-fill:hover {
+  transform: scale(1.1);
+  background-color: $warning;
+  border-radius: 10%;
+  color: $primary;
+}
+
+.bi-box-arrow-in-right:hover {
+  transform: scale(1.1);
+  background-color: $warning;
+  border-radius: 10%;
+  color: $primary;
+}
+.bi-person-vcard-fill:hover {
+  transform: scale(1.1);
+  background-color: $warning;
+  border-radius: 10%;
+}
+
+
+  .person {
+    border: 10px solid transparent;
+    border-color: transaprent;
+    border-radius: 40%;
+    margin-bottom: 25px;
+    width: 90%;
+    height: 40%;
+    opacity: 1;
+  }
+  .person:hover {
+    border-color: #efdecd;
+  }
+
+  .overlay {
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    right: 0;
+    background-color: #317873;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+  }
+
+  .text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.hovereffect:hover .overlay{
+  bottom: 0;
+  height: 100%;
+}
